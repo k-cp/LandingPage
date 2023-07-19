@@ -50,13 +50,127 @@ a:link {
 
 .main {
     background-color: #1f2937;
-    padding: 30px;
+    padding: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.main-sub p {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.main-sub button {
+    font-size: 20px;
+    color: white;
+    padding: 10px 25px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #a6e322;
 }
 
 .main img {
     width: 600px;
     height: auto;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.information .big {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    gap: 90px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+
+}
+
+.information div .container img {
+    width: 120px;
+    height: auto;
+    border: 5px solid #a6e322;
+    border-radius: 10px;
+
+}
+
+.information div .container p {
+    font-size: 18px;
+    color: #959baa;
+    padding: 15px 30px;
+}
+
+.quote {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .quote-sub {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .author {
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.sign {
+    padding: 100px 170px;
+}
+
+.box {
+    background-color: #3882f6;
+    padding: 80px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #a6e322;
+    color: white;
+    padding: 10px 40px;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
